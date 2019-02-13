@@ -1,0 +1,134 @@
+body {
+    background: #fafafa;
+    font-family: 'europa', sans-serif !important;
+    font-size: 15px;
+    transition: all .25s ease-in-out;
+    color: #f8f8f8;
+}
+
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+.display-5 {
+    font-family: 'helvetica-bold';
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.text-primary {
+    color: #fafafa !important;
+}
+
+a.text-primary:hover,
+a.text-primary:focus {
+    color: #e1e1e1 !important;
+}
+
+.text-secondary {
+    color: #f89224 !important;
+}
+
+a.text-secondary:hover,
+a.text-secondary:focus {
+    color: #e27907 !important;
+}
+
+a {
+    color: #bb9f82;
+}
+
+.layout {
+    min-height: calc(100vh - 372px);
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.navbar {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.navbar.bg-dark {
+    background: #0c0c0c !important;
+}
+
+.navbar .navbar-brand {
+    padding-left: 0 !important;
+    color: #fafafa;
+    font-size: 1rem;
+}
+
+.navbar .navbar-brand .h4,
+.navbar .navbar-brand h4 {
+    margin: 0 !important;
+    line-height: 1;
+}
+
+.nav {
+    margin-left: -15px;
+}
+
+.nav .nav-link {
+    padding-left: 30px !important;
+    position: relative;
+}
+
+.nav .nav-link.active {
+    color: #2a56c6;
+    font-weight: 600;
+}
+
+.nav .nav-link.active::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    box-sizing: content-box;
+    border-left: 3px solid #2a56c6;
+}
+
+.display-5 {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.footer {
+    margin-top: 40px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    color: #d5d5d5;
+}
+
+.footer p {
+    margin-bottom: .25rem !important;
+}
+
+.footer .copyright,
+.footer a {
+    color: #a2a2a2;
+}
+
+@media only screen and (min-width: 768px) {
+    .navbar-brand {
+        padding-left: 16px;
+        min-width: 200px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .main {
+        margin-left: 260px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .navbar {
+        justify-content: start;
+    }
+}
